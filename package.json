@@ -1,0 +1,25 @@
+{
+  "name": "webpack-pxswitch-plugin",
+  "version": "0.0.1",
+  "description": "A plugin to switch px to rem in css/scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backlost/webpack-pxswitch-plugin.git"
+  },
+  "keywords": [
+    "px",
+    "css",
+    "scss",
+    "rem"
+  ],
+  "author": "Meng.Locker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backlost/webpack-pxswitch-plugin/issues"
+  },
+  "homepage": "https://github.com/backlost/webpack-pxswitch-plugin#readme"
+}
