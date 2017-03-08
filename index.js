@@ -1,3 +1,5 @@
+const _ = require('lodash')
+
 function WebpackPxswitchPlugin(options) {
 
 	// user input options
