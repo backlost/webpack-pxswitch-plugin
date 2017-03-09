@@ -1,14 +1,14 @@
 function WebpackPxswitchPlugin(options) {
     // user input options
-    this.options = options.fontsize || '50';
-    this.overwrite = options.overwrite || true;
+    this.options = options.fontsize || '50'
+    this.overwrite = options.overwrite || true
 
 }
 
 WebpackPxswitchPlugin.prototype.apply = function (compiler) {
     // some code here
     compiler.plugin('emit', (compiltation, callback) => {
-        const baseFont = parseInt(this.options.baseSize || 36)
+        const baseFont = parseInt(this.options)
         Object.keys(compiltation.assets).forEach((key) => {
             if (key.slice(-3) == 'css') {
                 let tSource = compiltation.assets[key].source()
