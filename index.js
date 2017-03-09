@@ -11,8 +11,9 @@ function WebpackPxswitchPlugin(options) {
 
 WebpackPxswitchPlugin.prototype.apply = function (compiler, callback) {
 	// some code here
-	compiler.plugin('done', function () {
+	compiler.plugin('emit', compiltation=>{
 		console.log('Hello World!');
+		console.log(compiltation);
 		console.log(this.options.toString());
 	});
 }
